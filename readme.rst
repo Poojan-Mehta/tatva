@@ -1,70 +1,31 @@
 ###################
-What is CodeIgniter
+Project flow
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+I cretated tatva database for this project also i uploaded sql file here.
+to open the main page
+[click here] (http://localhost/tatva/)
 
 *******************
-Release Information
+Controller
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+I created Event controller where i added function for index, create, edit, delete, view and date convert related function.
 
 **************************
-Changelog and New Features
+Model
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+I created Event_model file inside model folder where i did all the database related operation.
 
 *******************
-Server Requirements
+View
 *******************
 
-PHP version 5.6 or newer is recommended.
+I created add page and list page on the same page so index.php is for add and event list, i used jquery validation and ajax for submitting the data.
+View and Edit page is separate but we can show the data in textboxes when we click on edit in index page but for now i created separate page for it.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+As per the requirement i displayed Recurrence wise data in view page. Please check and give me feedback if any mistake found. We can still reduce the code especially in controller. i made some extra line of code as i was confused that time.
 
-************
-Installation
-************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Thanks.
