@@ -178,7 +178,9 @@ class Event extends CI_Controller {
 				$dates = $this->everyFourth($start_date, $end_date,'Year');
 			}
 
-			$data = array('event_dates'=>$dates,'event'=>$getEvent);
+			$event_count = count($dates);
+			
+			$data = array('event_dates'=>$dates,'event'=>$getEvent,'event_count'=>$event_count);
 			$this->load->view('Event/view',$data);			
 			
 		}

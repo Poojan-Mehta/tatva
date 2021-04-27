@@ -13,6 +13,7 @@
 	<a href="<?php echo base_url().'event';?>" class="btn btn-primary">Event List</a>
 <div class="col-md-9">
 			<h2>Events list</h2>
+			<h4>Total count: <?php echo $event_count; ?> </h4>
 			<div class="innerbox">
 			<div class="col-md-12" style="padding-top: 10px;">
 			<table class="table table-striped" id="event_table">
