@@ -68,6 +68,7 @@ if ($error != "") {?>
 			  	
 			  </div>
 			  <button type="button" class="btn btn-primary" onclick="checkValidation(event);">Submit</button>
+			  <button type="button" class="btn btn-danger">Cancel</button>
 			</form>
 		</div>
 		<div class="col-md-9">
