@@ -40,12 +40,12 @@ if ($error != "") {?>
 			  </div>
 			  <div class="form-group">
 			    <label for="start_date">Start Date:</label>
-			    <input type="text" class="form-control" name="start_date" id="start_date">
+			    <input type="text" class="form-control" name="start_date" autocomplete="off" id="start_date">
 			    <span id="start_date_error" class="alert alert-danger" style="display: none;"></span>
 			  </div>
 			  <div class="form-group">
 			    <label for="end_date">End Date:</label>
-			    <input type="text" class="form-control" name="end_date" id="end_date">
+			    <input type="text" class="form-control" name="end_date" autocomplete="off" id="end_date">
 			    <span id="end_date_error" class="alert alert-danger" style="display: none;"></span>
 			  </div>
 			  <div class="form-group">
@@ -68,6 +68,7 @@ if ($error != "") {?>
 			  	
 			  </div>
 			  <button type="button" class="btn btn-primary" onclick="checkValidation(event);">Submit</button>
+			  <button type="button" class="btn btn-danger">Cancel</button>			  
 			</form>
 		</div>
 		<div class="col-md-9">
